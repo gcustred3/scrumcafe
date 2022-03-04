@@ -58,6 +58,7 @@ function App() {
 				<OrderComplete onClick={handleReset} />
 			) : (
 				<>
+				<div>hi</div>
 					<Menu handleAdd={handleAdd} checkingOut={checkingOut} />
 					<ShoppingCart
 						cart={cart}
